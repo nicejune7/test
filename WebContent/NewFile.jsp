@@ -9,9 +9,9 @@
 	<%
 		SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
 		Date time = new Date();
-		String time1 = format1.format(time);
+		String time2 = format1.format(time);
 	%>
-	<%= time1 %>
+	<%= time2 %>
 <title>Insert title here</title>
 </head>
 <body>
